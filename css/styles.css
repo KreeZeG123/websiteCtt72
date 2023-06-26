@@ -136,8 +136,8 @@ table th, table td {
 }
 
 .photo-gallery img {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
   margin: 10px;
 }
