@@ -13,9 +13,7 @@ body, h1, h2, p, ul, li, table {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  background-color: #bdbbbb;
-  display: flex;
-  flex-direction: column;
+  background-color: #f8f8f8;
 }
 
 header {
@@ -59,14 +57,11 @@ nav ul li a {
 }
 
 main {
-  width: 800px;
+  max-width: 800px;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 section {
@@ -97,55 +92,9 @@ table th, table td {
   border: 1px solid #ccc;
 }
 
-#iframe-container {
-  display: flex;
-  justify-content: center;
-}
-
-#iframe-container iframe {
-  border: none;
-  overflow: hidden;
-}
-
-#contact table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-#contact table th, table td {
-  border: none;
-  padding: 8px;
-  text-align: left;
-}
-
-#vitrine-photos {
-  text-align: center;
-}
-
-#vitrine-photos h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.photo-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.photo-gallery img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin: 10px;
-}
-
 footer {
   text-align: center;
   padding: 10px;
   background-color: #333;
   color: #fff;
-  flex-shrink: 0;
 }
